@@ -1,0 +1,15 @@
+dn: cn=jraffre,ou=people,dc=nyuu,dc=priv
+objectClass: top
+objectClass: account
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: extensibleObject
+cn: jraffre
+loginShell: /bin/bash
+gidNumber: 10000
+mail: nk@nyuu.eu
+uid: jraffre
+gecos: jraffre
+uidNumber: 10000
+description: Jonathan Raffre
+homeDirectory: /home/jraffre

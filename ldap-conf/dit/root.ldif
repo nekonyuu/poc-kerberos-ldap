@@ -1,0 +1,20 @@
+dn: dc=nyuu,dc=priv
+objectClass: dcObject
+objectClass: organization
+dc: nyuu
+o: nyuu
+description: Nyuu Org
+
+dn: cn=admin,dc=nyuu,dc=priv
+objectClass: organizationalRole
+cn: admin
+description: Directory Manager
+
+dn: ou=people,dc=nyuu,dc=priv
+objectClass: organizationalUnit
+ou: people
+
+
+dn: ou=services,dc=nyuu,dc=priv
+objectClass: organizationalUnit
+ou: services

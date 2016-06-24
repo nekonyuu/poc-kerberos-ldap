@@ -1,0 +1,8 @@
+dn: cn=kdc,ou=services,dc=nyuu,dc=priv
+objectClass: top
+objectClass: account
+objectClass: extensibleObject
+cn: kdc
+uid: kdc
+description: KDC User
+userPassword: {SSHA}XBMAvipShNfwD0uLWKNoS0gnrVariRhH

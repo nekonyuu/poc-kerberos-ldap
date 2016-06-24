@@ -1,0 +1,11 @@
+dn: olcDatabase={1}mdb,cn=config
+changetype: modify
+add: olcDbIndex
+olcDbIndex: krbPrincipalName eq,sub
+
+dn: olcDatabase={1}mdb,cn=config
+changetype: modify
+add: olcAccess
+olcAccess: to attrs=userPassword,shadowLastChange by self write by anonymous auth by * none
+olcAccess: to dn.base="ou=people,dc=nyuu,dc=priv" by dn="cn=kdc,ou=services,dc=nyuu,dc=priv" manage
+olcAccess: to * by self write by * read
