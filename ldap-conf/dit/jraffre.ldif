@@ -13,3 +13,4 @@ gecos: jraffre
 uidNumber: 10000
 description: Jonathan Raffre
 homeDirectory: /home/jraffre
+userPassword: {SSHA}kU1p0ktjEqpXuhdExcN/ccykjZq1FLXt
